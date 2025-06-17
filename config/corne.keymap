@@ -54,7 +54,7 @@
         lower_layer {
             bindings = <
 &trans             &kp N1           &kp N2           &kp N3    &kp N4  &kp N5     &kp N6     &kp N7    &kp N8    &kp N9     &kp N0  &kp DEL
-&bootloader        &rgb_ug RGB_TOG  &kp PRINTSCREEN  &none     &kp L   &trans     &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &none   &trans
+&bootloader        &rgb_ug RGB_TOG  &kp PRINTSCREEN  &none     &trans  &trans     &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &none   &kp L
 &ext_power EP_TOG  &trans           &trans           &trans    &trans  &trans     &trans     &trans    &trans    &trans     &trans  &trans
                                                      &kp LGUI  &trans  &kp SPACE  &kp ENTER  &mo 3     &kp RALT
             >;
